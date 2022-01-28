@@ -61,7 +61,7 @@ nodes:
   nodeGroup: bl
 - image: odoo:${settings.version}
   displayName: App Server
-  cloudlets: 32
+  cloudlets: 10
   nodeGroup: cp
   links: sqldb:db
   startServiceOnCreation: false
